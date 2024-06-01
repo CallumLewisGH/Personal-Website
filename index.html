@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Callum Lewis - Personal Webpage</title>
-
+    <link rel="icon" type="image/x-icon" href="Assets\Favicon.ico">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,13 +17,13 @@
 
         }
         header {
-            background-color: #333;
+            background-color: #3c3b3b;
             color: #fff;
             padding: 0px 0;
             text-align: center;
         }
         nav {
-            background-color: #444;
+            background-color: #4c4b4b;
             text-align: center;
             position: -webkit-sticky; /* For Safari */
             position: sticky;
@@ -56,19 +56,23 @@
 
         }
         h1, h2 {
-            color: #333;
+            color: #3c3b3b;
         }
-        .contact-info {
-            list-style: none;
-            padding: 0;
-        }
-        .contact-info li {
+        .contact-info a{
             margin: 5px 0;
+            color: #3c3b3b;
+            text-decoration: none;
+
+        }
+        .contact-info li:hover{
+            text-decoration: underline;
+
+
         }
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #333;
+            background-color: #3c3b3b;
             color: #fff;
             position: fixed;
             bottom: 0;
@@ -79,16 +83,6 @@
             padding: 50px;
         }
 
-        footer a {
-            color: #ffffff;
-            text-decoration: none;
-            margin: 0 15px;
-            padding: 20px;
-            display: inline-block;
-        }
-        footer a:hover {
-            text-decoration: underline;
-        }
 
     </style>
 
@@ -127,9 +121,12 @@
 
         <section id="contact">
             <h2>Contact</h2>
-            <p>If you would like to get in touch, please use the following contact information:</p>
+            <p>If you would like to get in touch, please use the following contact links:</p>
             <ul class="contact-info">
-                <li>Email: <a href="mailto:callumlewis852@gmail.com">callumlewis852@gmail.com</a></li>
+                <li><a href = "https://www.linkedin.com/in/callum-lewis-9158ba263/"> LinkedIn</a></li>
+                <li><a href = "https://github.com/CallumLewisGH"> GitHub</a></li>
+                <li><a href= "mailto:callumlewis852@gmail.com"> Email</a></li>
+                <li><a href = "https://leetcode.com/CallumLewisLC/"> Leetcode</a></li>
 
             </ul>
 
@@ -138,11 +135,9 @@
     </div>
 
     <footer>
-        <a href = "https://www.linkedin.com/in/callum-lewis-9158ba263/"> LinkedIn</a>
-        <a href = "https://github.com/CallumLewisGH"> GitHub</a>
+
         <span>&copy; 2024 Callum Lewis</span>
-        <a href= "mailto:callumlewis852@gmail.com"> Email</a>
-        <a href = "https://leetcode.com/CallumLewisLC/"> Leetcode</a>
+
 
     </footer>
 
