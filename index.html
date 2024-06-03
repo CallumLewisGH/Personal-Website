@@ -28,17 +28,13 @@
         nav {
             background-color: #4c4b4b;
             text-align: center;
-            position: -webkit-sticky; /* For Safari */
-            position: sticky;
-            top: 0;
-            z-index: 1000; /* Ensure it stays above other content */
         }
 
         nav a {
             color: #fff;
             text-decoration: none;
-            margin: 0 15px;
-            padding: 20px;
+            margin: 0vh 5vh;
+            padding: 3vh;
             display: inline-block;
         }
 
@@ -47,10 +43,15 @@
         }
 
         .container1 {
-            padding: 20px;
+            padding: 3vh 2vh;
             flex: 1;
             min-height: calc(100vh - 80px);
         }
+
+        .container1 p{
+            line-height: 3vh;
+        }
+
 
         .container2 {
             display: flex;
@@ -75,7 +76,7 @@
 
         }
 
-        .contact-info li:hover{
+        .contact-info a:hover{
             text-decoration: underline;
         }
 
@@ -94,6 +95,16 @@
             padding: 50px;
         }
 
+        link a{
+            margin: 5px 0;
+            color: #3c3b3b;
+            text-decoration: none
+        }
+
+        link a:hover{
+            text-decoration: underline;
+        }
+
 
     </style>
 
@@ -108,29 +119,32 @@
 
     <nav>
         <a href="#about">About Me</a>
-        <a href="#Projects and Education">Projects and Education</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
     </nav>
 
     <div class="container1">
         <section id="about">
             <h2>About Me</h2>
-            <p>Hello! My name is Callum Lewis. I am passionate about coding, learning and deveolping my skills in programming and software in general.
-                 I am currently studying at A-Level and am looking for a degree apprenticeship in tech.</p>
+            <p>Hi, I’m Callum. I like to consider myself a hardworking, honest, and notably curious person. Since I first took apart my computer and made the Python shell play noughts and crosses with me, I’ve been fascinated by technology and software. This has fuelled my ambition to improve my software development skills and computer science knowledge, but mostly it motivates itself. In my life, I have not encountered anything as satisfying and rewarding as working on problems and slowly but surely seeing the finished product form through hard work, creativity, and consistency, all the while learning in the process.</p>
+            <p>Studying A-Level computer science and working on personal projects significantly enhanced my understanding of algorithms, data structures, and software engineering principles. Additionally, this website, along with others, has furthered and enhanced my skills in HTML, CSS, and JavaScript in the context of web design and has also taught me the importance of user experience and responsive design. I like to think of these projects not just as accomplishments but as stepping stones leading me to become a better, more effective, and well-rounded nerd.</p>
+            <p>Academically, I have decided to pursue Computer Science, Maths, and Chemistry. I find that these subjects scratch a similar itch that coding and developing software does, but with less creativity, which, while satisfying and enjoyable, can’t touch la crème de la crème. Anyway, aside from Computer Science, these subjects, in particular, have worked to build my problem-solving skills and analytical thinking, and when I say that, I mean it. In these subjects, knowledge alone won't get you the grades. You have to have the skills, and because they are so reliant on these, these subjects compliment each other quite nicely.</p>
+            <p>Outside of school, I spend much of my free time on Leetcode or working on projects with my friends in our Git and Github-based coding collective, Precision Coding, which has taught me the importance of collaboration, effective communication, and the basics of version control. I play the piano, go to the gym, and go hiking/backpacking on my weeks off. In particular, going to the gym taught me I wasn’t a prisoner to my mind and that I have the power to decide my future, which I think is the most important lesson I have learned in my life so far, full stop. Which is why these hobbies have contributed so significantly to my school work and my education, allowing me to revise when I don’t want to, to put in the work when I don’t want to. Additionally, these hobbies “heal the soul,” so to speak, allowing me to work harder and be happier in general. What’s more, balancing these tasks throughout the years has made my time management skills substantially better and has allowed me to more effectively organize tasks throughout the day. To boot, I am currently completing the DofE Gold expedition award this summer and, as previously mentioned, hike and backpack when I can and in doing these I have learned a lot, mostly how to read a map but also the importance of continued effort, “one foot after the other”.</p>
+            <p>My journey in computer science, mathematics, and chemistry so far has been an immensely rewarding and changing experience. My love of technology and software isn’t just an academic pursuit but a passion that drives me to continuously improve and innovate myself and my ideas. The projects and collaborative efforts I've engaged in, both academically and personally, have equipped me with a set of skills in problem-solving, critical thinking, and effective communication. My hobbies and interests have fostered resilience, discipline, and a well-rounded character. I am excited to further develop my skills, contribute to the field of technology, and learn from the challenges and opportunities that lie ahead. With a strong foundation and an buckets of curiosity, I intend to continue learning and growing every day. “One foot after the other”.</p>
 
         </section>
 
-        <section id="Projects and Education">
-            <h2>Projects and Education</h2>
-            <p>I am currently enrolled in three A-Level courses:</p>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>These are some finished or WIP projects</p>
 
-            <ul>
-                <li>Maths</li>
-                <li>Chemistry</li>
-                <li>Computer Science</li>
+            <ul class = "link">
+                <li><a href = "https://github.com/Precision-Coding/Projectile-Motion-Sim"> Projectile Motion Sim</a></li>
+                <li><a href = "https://github.com/Precision-Coding/Projectile-Motion-Sim"> Projectile Motion Sim</a></li>
+                <li><a href = "https://github.com/Precision-Coding/Projectile-Motion-Sim"> Projectile Motion Sim</a></li>
 
             </ul>
-            <p>Additionally I am moslty working on projects in a Git based coding collective called Precision Coding.  </p>
+
 
         </section>
 
